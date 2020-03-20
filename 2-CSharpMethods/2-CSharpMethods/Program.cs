@@ -11,7 +11,7 @@ namespace _2_CSharpMethods
             Console.WriteLine("Welcome to the cat food store!");
 
             // System.Threading is a different namespace 
-            System.Threading.Thread.Sleep(3000);
+            Thread.Sleep(3000);
             Console.WriteLine("Done Sleeping!");
 
         }
