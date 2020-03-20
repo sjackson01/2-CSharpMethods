@@ -5,14 +5,36 @@ namespace _2_CSharpMethods
 {
     class Program
     {
+        // Static keyword doesn't belong to an object. 
+        // Void no return type. 
+        static void Wait() 
+        {
+            // Call method within another method possible 
+            // CountToThree();
+
+            // Write line is a static method we dont need and object.
+            Console.WriteLine("Waiting...");
+            Thread.Sleep(3000);
+            Console.WriteLine("Done");
+        }
+
+        static void CountToThree() 
+        {
+            Console.WriteLine(1);
+            Console.WriteLine(2);
+            Console.WriteLine(3);
+
+        }
+            
         static void Main(string[] args)
         {
-            // Desmonstrate sleep method 
-            Console.WriteLine("Welcome to the cat food store!");
+            // Call static method (doens't need an object). 
+            Wait();
 
-            // System.Threading is a different namespace 
-            Thread.Sleep(3000);
-            Console.WriteLine("Done Sleeping!");
+            CountToThree();
+
+            // Get Type is not static and must be called on an object. 
+            42.GetType();
 
         }
     }
