@@ -25,6 +25,14 @@ namespace _2_CSharpMethods
             Console.WriteLine(3);
 
         }
+
+        // Parameters and Arguments 
+        static void Add(double first, double second) 
+        {
+            Console.WriteLine(first);
+            Console.WriteLine(second);
+            Console.WriteLine(first + second);
+        }
             
         static void Main(string[] args)
         {
@@ -35,6 +43,8 @@ namespace _2_CSharpMethods
 
             // Get Type is not static and must be called on an object. 
             42.GetType();
+
+            Add(1, 2);
 
         }
     }
