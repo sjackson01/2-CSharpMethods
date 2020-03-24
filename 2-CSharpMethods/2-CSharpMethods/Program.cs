@@ -7,14 +7,14 @@ namespace _2_CSharpMethods
     {
         // Static keyword doesn't belong to an object. 
         // Void no return type. 
-        static void Wait() 
+        static void Wait(int delay) 
         {
             // Call method within another method possible 
             // CountToThree();
 
             // Write line is a static method we dont need and object.
             Console.WriteLine("Waiting...");
-            Thread.Sleep(3000);
+            Thread.Sleep(delay);
             Console.WriteLine("Done");
         }
 
@@ -37,7 +37,7 @@ namespace _2_CSharpMethods
         static void Main(string[] args)
         {
             // Call static method (doens't need an object). 
-            Wait();
+            Wait(3000);
 
             CountToThree();
 
