@@ -6,6 +6,13 @@ namespace _2_CSharpMethods
     class Program
     {
 
+        // Ask method
+        static string Ask(string question) 
+        {
+            Console.Write(question);
+            return Console.ReadLine();
+        }
+
         // Static keyword doesn't belong to an object. 
         // Void no return type. 
         static void Wait(int delay) 
@@ -44,6 +51,8 @@ namespace _2_CSharpMethods
             42.GetType();
 
             // Assign returned value to a variable 
+            // Gives info the program different than
+            // Console Write which just displays info 
             double total = Add(1, 2);
 
             Console.WriteLine(total);
@@ -51,7 +60,11 @@ namespace _2_CSharpMethods
             // Pass returned value directly to another method
             Console.WriteLine(Add(3,5));
 
-           
+
+            // Use ask method that returns a method
+            Console.WriteLine("Welcome to the cat food store!");
+            string entry = Ask("How many cans are you ordering?");
+            Console.WriteLine(entry);
 
         }
     }
