@@ -1,0 +1,11 @@
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.exe
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.deps.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.runtimeconfig.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.runtimeconfig.dev.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.dll
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\bin\Debug\netcoreapp3.1\2-CSharpMethods.pdb
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\obj\Debug\netcoreapp3.1\2-CSharpMethods.csprojAssemblyReference.cache
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\obj\Debug\netcoreapp3.1\2-CSharpMethods.AssemblyInfoInputs.cache
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\obj\Debug\netcoreapp3.1\2-CSharpMethods.AssemblyInfo.cs
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\obj\Debug\netcoreapp3.1\2-CSharpMethods.dll
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\1-CSharpReview\2-CSharpMethods\2-CSharpMethods\2-CSharpMethods\obj\Debug\netcoreapp3.1\2-CSharpMethods.pdb
