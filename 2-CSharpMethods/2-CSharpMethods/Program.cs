@@ -9,7 +9,7 @@ namespace _2_CSharpMethods
         // Ask method
         static string Ask(string question) 
         {
-            Console.Write(question);
+            Console.Write(question + " ");
             return Console.ReadLine();
         }
 
@@ -64,7 +64,7 @@ namespace _2_CSharpMethods
             // Use ask method that returns a method
             Console.WriteLine("Welcome to the cat food store!");
             string entry = Ask("How many cans are you ordering?");
-            Console.WriteLine(entry);
+            Console.WriteLine("You entered " + entry + " cans");
 
         }
     }
