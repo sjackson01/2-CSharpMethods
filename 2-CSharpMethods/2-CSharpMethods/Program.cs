@@ -5,6 +5,7 @@ namespace _2_CSharpMethods
 {
     class Program
     {
+
         // Static keyword doesn't belong to an object. 
         // Void no return type. 
         static void Wait(int delay) 
@@ -26,12 +27,10 @@ namespace _2_CSharpMethods
 
         }
 
-        // Parameters and Arguments 
-        static void Add(double first, double second) 
+        // Parameters Arguments Return Type  
+        static double Add(double first, double second) 
         {
-            Console.WriteLine(first);
-            Console.WriteLine(second);
-            Console.WriteLine(first + second);
+            return first + second;
         }
             
         static void Main(string[] args)
@@ -44,7 +43,15 @@ namespace _2_CSharpMethods
             // Get Type is not static and must be called on an object. 
             42.GetType();
 
-            Add(1, 2);
+            // Assign returned value to a variable 
+            double total = Add(1, 2);
+
+            Console.WriteLine(total);
+
+            // Pass returned value directly to another method
+            Console.WriteLine(Add(3,5));
+
+           
 
         }
     }
