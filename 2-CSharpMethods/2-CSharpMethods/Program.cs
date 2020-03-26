@@ -9,7 +9,7 @@ namespace _2_CSharpMethods
         // Ask method
         static string Ask(string question) 
         {
-            Console.Write(question);
+            Console.Write(question + " ");
             return Console.ReadLine();
         }
 
@@ -42,6 +42,18 @@ namespace _2_CSharpMethods
             
         static void Main(string[] args)
         {
+            // String interpolation: Sub C# code 
+            // into the middle of a string. 
+            Console.WriteLine($"aaa {1 + 2}");
+
+            // Use Datetime now property 
+            // Property thats always set to now
+            Console.WriteLine($"aaa {DateTime.Now} bbb");
+
+            string name = "Steven"; 
+
+            Console.WriteLine($"Hello {name}!"); // Interpolate var
+
             // Call static method (doens't need an object). 
             Wait(3000);
 
@@ -62,9 +74,10 @@ namespace _2_CSharpMethods
 
 
             // Use ask method that returns a method
-            Console.WriteLine("Welcome to the cat food store!");
-            string entry = Ask("How many cans are you ordering?");
-            Console.WriteLine(entry);
+            // Use \n newline and \t tab 
+            Console.WriteLine("Welcome to the cat food store!\nPlease let me know if you need anything.");
+            string entry = Ask("\tHow many cans are you ordering?");
+            Console.WriteLine( $"You entered {entry} cans");
 
         }
     }
