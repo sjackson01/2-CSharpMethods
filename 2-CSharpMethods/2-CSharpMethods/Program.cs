@@ -77,7 +77,11 @@ namespace _2_CSharpMethods
             // Use \n newline and \t tab 
             Console.WriteLine("Welcome to the cat food store!\nPlease let me know if you need anything.");
             string entry = Ask("\tHow many cans are you ordering?");
-            Console.WriteLine( $"You entered {entry} cans");
+
+            // Convert string to double using parse method. 
+            double quantity = double.Parse(entry);
+            Console.WriteLine( $"You entered {quantity} cans");
+            Console.WriteLine($"For {quantity} cans, your total is: ${quantity * 2}");
 
         }
     }
