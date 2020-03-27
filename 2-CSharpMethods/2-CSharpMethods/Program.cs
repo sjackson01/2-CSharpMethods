@@ -6,13 +6,6 @@ namespace _2_CSharpMethods
     class Program
     {
 
-        // Ask method
-        static string Ask(string question) 
-        {
-            Console.Write(question + " ");
-            return Console.ReadLine();
-        }
-
         // Static keyword doesn't belong to an object. 
         // Void no return type. 
         static void Wait(int delay) 
@@ -39,7 +32,19 @@ namespace _2_CSharpMethods
         {
             return first + second;
         }
-            
+
+        // Ask method
+        static string Ask(string question)
+        {
+            Console.Write(question + " ");
+            return Console.ReadLine();
+        }
+
+        static double Price(double quantity) 
+        {
+            return quantity * 2;
+        }
+
         static void Main(string[] args)
         {
             // String interpolation: Sub C# code 
@@ -65,9 +70,9 @@ namespace _2_CSharpMethods
             // Assign returned value to a variable 
             // Gives info the program different than
             // Console Write which just displays info 
-            double total = Add(1, 2);
+            double otherTotal = Add(1, 2);
 
-            Console.WriteLine(total);
+            Console.WriteLine(otherTotal);
 
             // Pass returned value directly to another method
             Console.WriteLine(Add(3,5));
@@ -81,7 +86,8 @@ namespace _2_CSharpMethods
             // Convert string to double using parse method. 
             double quantity = double.Parse(entry);
             Console.WriteLine( $"You entered {quantity} cans");
-            Console.WriteLine($"For {quantity} cans, your total is: ${quantity * 2}");
+            double total = Price(quantity);
+            Console.WriteLine($"For {quantity} cans, your total is: ${total}");
 
         }
     }
